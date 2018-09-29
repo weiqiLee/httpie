@@ -1,3 +1,56 @@
+主要特性：
+
+直观的语法
+格式化和色彩化的终端输出
+内置 JSON 支持
+支持上传表单和文件
+HTTPS、代理和认证
+任意请求数据
+自定义头部
+持久性会话
+类 Wget 下载
+支持 Python 2.6, 2.7 和 3.x
+支持 Linux, Mac OS X 和 Windows
+插件
+文档
+测试覆盖率
+HTTPie 是用 Python 编写，用到了 Requests 和 Pygments 这些出色的库。
+
+1. 安装 httpie
+
+httpie 是跨平台命令，支持 Mac OS X、 Linux、 Windows
+
+1） Mac OS X 
+
+brew install httpie        // brew 命令安装
+
+port install httpie          // ports 命令安装
+
+ 
+
+2） Linux
+
+easy_install httpie  （CentOS 5.6/6.5/7.2 都成功）
+
+# Debian, Ubuntu, etc.
+apt-get install httpie
+
+# Fedora, CentOS, RHEL, …
+yum install httpie
+
+# Arch Linux
+pacman -S httpie
+
+ 
+
+3）Windows
+
+# Make sure we have an up-to-date version of pip and setuptools:
+$ pip install --upgrade pip setuptools
+$ pip install --upgrade httpie
+
+
+
 HTTPie: a CLI, cURL-like tool for humans
 ########################################
 
